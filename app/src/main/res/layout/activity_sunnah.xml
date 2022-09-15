@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".SunnahShalat">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/gerakanshalat"
+        app:srcCompat="@drawable/gerakanshalat"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="103dp"
+        android:layout_marginLeft="180dp"
+        android:text="Sholat Sunnah"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/cardview_light_background"
+        android:gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="180dp">
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/buttonrawatib"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttongaya1"
+        android:text="RAWATIB"  />
+
+            <Button
+                android:id="@+id/buttondhuha"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="DHUHA" />
+
+            <Button
+                android:id="@+id/buttontasbih"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="TASBIH" />
+
+            <Button
+                android:id="@+id/buttontahajud"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="TAHAJUD" />
+
+            <Button
+                android:id="@+id/buttonistikharah"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="ISTIKHARAH" />
+
+            <Button
+                android:id="@+id/buttongerhana"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="GERHANA" />
+
+            <Button
+                android:id="@+id/buttontaubat"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="TAUBAT" />
+
+            <Button
+                android:id="@+id/buttonhajat"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="HAJAT" />
+
+            <Button
+                android:id="@+id/buttonistisqa"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="ISTISQA" />
+
+            <Button
+                android:id="@+id/buttongerakanshalats"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/buttongaya1"
+                android:text="GERAKAN SHALAT" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

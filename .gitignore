@@ -1,7 +1,14 @@
-# Created by .ignore support plugin (hsz.mobi)
-.idea/.gitignore
-.idea/codeStyles/
-.idea/inspectionProfiles/
-.idea/modules.xml
-.idea/sholatwajibsunnahbano.iml
-.idea/vcs.xml
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx

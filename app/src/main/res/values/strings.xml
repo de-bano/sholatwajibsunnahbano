@@ -1,0 +1,42 @@
+<resources>
+    //liatnya di android manifest
+    <string name="app_name">Sholat Wajib dan Sunnah Beserta Cara Berwudhu</string>
+    //untuk label atas
+    <string name="shalatwsw">Bano App</string>
+    //untuk label atas
+
+    //menu awal
+    <string name="wajibshalat">Wajib</string>
+    <string name="namamasjid">Masjid</string>
+    <string name="sunnahshalat">Sunnah</string>
+    <string name="carawudhu">Wudhu</string>
+
+    //wajib
+    <string name="shalatsubuh">Shalat Subuh</string>
+    <string name="shalatdzuhur">Shalat Dzuhur</string>
+    <string name="shalatashar">Shalat Ashar</string>
+    <string name="shalatmagrib">Shalat Magrib</string>
+    <string name="shalatisya">Shalat Isya</string>
+
+    //sunnah
+    <string name="sunnahrawatib">Shalat Rawatib</string>
+    <string name="sunnahdhuha">Shalat Dhuha</string>
+    <string name="sunnahtasbih">Shalat Tasbih</string>
+    <string name="sunnahtahajud">Shalat Tahajud</string>
+    <string name="sunnahistikharah">Shalat Istikharah</string>
+    <string name="sunnahgerhana">Shalat Gerhana</string>
+    <string name="sunnahtaubat">Shalat Taubat</string>
+    <string name="sunnahhajat">Shalat Hajat</string>
+    <string name="sunnahistiqa">Shalat Istisqa</string>
+
+    //wudhu
+    <string name="wudhuinformasi">Wudhu Informasi</string>
+
+    //gerakan
+    <string name="gerakanshalat">Gerakan Shalat</string>
+    <string name="gerakanwudhu">Gerakan Wudhu</string>
+
+    <string name="about">Tentang</string>
+    <string name="server_url">http://tabandolano.online/</string>
+
+</resources>

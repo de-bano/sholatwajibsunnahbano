@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MenuUtama">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:background="@drawable/langit">
+
+        <AnalogClock
+            android:id="@+id/analogClock"
+            android:layout_alignParentRight="true"
+            android:layout_width="90dp"
+            android:layout_height="95dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Total Pengunjung :"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/total_pengunjung"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:text="0"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            app:srcCompat="@drawable/gerakanshalat" />
+
+        <Button
+            android:id="@+id/buttonshalat"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="235dp"
+            android:background="@drawable/buttongaya1"
+            android:text="Wajib" />
+
+        <Button
+            android:id="@+id/buttonsunnah"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="235dp"
+            android:background="@drawable/buttongaya1"
+            android:text="Sunnah"/>
+
+
+        <Button
+            android:id="@+id/buttonwudhu"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttongaya1"
+            android:text="Wudhu" />
+
+        <Button
+            android:id="@+id/buttonmasjid"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="175dp"
+            android:text="MASJID"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/buttongaya1"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttontentang"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="350dp"
+        android:background="@drawable/buttongaya1"
+        android:text="!" />
+
+</LinearLayout>
+
